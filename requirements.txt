@@ -1,0 +1,11 @@
+# Replication environment for "Rolling Memory" (CPSR 2026)
+# Tested with Python 3.13. Pins are lower bounds; the exact versions used are noted.
+pandas>=2.2          # tested 2.2.3
+numpy>=2.0           # tested 2.2.4
+scikit-learn>=1.6    # tested 1.6.1  (imported as sklearn)
+matplotlib>=3.9      # tested 3.10.1
+scipy>=1.15          # tested 1.15.2
+statsmodels>=0.14    # tested 0.14.4
+openpyxl>=3.1        # tested 3.1.5  (reads/writes .xlsx)
+tqdm>=4.66           # tested 4.67.1
+openai>=1.40         # tested 1.74.0 (only needed to RE-RUN annotations, not to plot)

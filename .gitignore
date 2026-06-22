@@ -1,0 +1,15 @@
+# Never commit API keys
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Exploratory figures written into code/ subfolders if older script variants are run
+code/**/fig_*.pdf
+code/**/fig1fig_*.pdf
